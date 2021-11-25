@@ -6,14 +6,9 @@ using UnityEngine.UI;
 public class MyScoringSystem : MonoBehaviour {
 
     public GameObject ScoreText;
-    public int theScore;
-    public AudioSource CollectSound;
+    public static int theScore;
 
-    void OnTriggerEnter(Collider other){
-        CollectSound.Play();
-        theScore += 1;
-        ScoreText.GetComponent<Text>().text = "Score: " + theScore;
-        Destroy(gameObject);
+    void Update(){
+        ScoreText.GetComponent<Text>().text = "collected: " + theScore;
     }
-
 }
