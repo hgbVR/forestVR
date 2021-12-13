@@ -2,13 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GITHUBSCRIPT : MonoBehaviour
+public class ZWEITESTESTSCRIPT : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-
-        //git hub test 2
         
     }
 
