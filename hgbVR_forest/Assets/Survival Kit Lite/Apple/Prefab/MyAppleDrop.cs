@@ -5,6 +5,10 @@ using UnityEngine;
 public class MyAppleDrop : MonoBehaviour
 {
 
+    public AudioSource CollectSound;
+
+    public ParticleSystem Flare;
+
     void Start()
     {
 
@@ -12,14 +16,29 @@ public class MyAppleDrop : MonoBehaviour
 
     void OnCollisionEnter(Collision thecollision)
     {
-        if (thecollision.gameObject.name == "Waldboden")
+        Debug.Log("Collision");
+        //Flare.Play();
+    }
+
+    void OnTriggerEnter(Collider thecollider)
+    {
+        Debug.Log("Trigger");
+        //hier den counter triggern
+        if (thecollider.gameObject.name == "triggerCube")
         {
-            Debug.Log("Hit the forestfloor");
+            Debug.Log("name works");
+            playCollectionSound();
+            MyScoringSystem.theScore += 1;
+            Debug.Log("Count:" + MyScoringSystem.theScore);
+            Flare.Play();
+            //Flare.Emit(100);
+
         }
-        else if (thecollision.gameObject.name == "Wall")
-        {
-            Debug.Log("Hit the wall");
-        }
+    }
+
+    public void playCollectionSound()
+    {
+        CollectSound.Play();
     }
 
     void Update()

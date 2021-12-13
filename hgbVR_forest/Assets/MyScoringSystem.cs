@@ -12,3 +12,4 @@ public class MyScoringSystem : MonoBehaviour {
         ScoreText.GetComponent<Text>().text = "collected: " + theScore;
     }
 }
+
