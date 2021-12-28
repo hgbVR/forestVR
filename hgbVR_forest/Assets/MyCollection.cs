@@ -33,6 +33,7 @@ public class MyCollection : MonoBehaviour
     void OnTriggerEnter(Collider other){
         triggerState = true;
         Debug.Log("OnTriggerEnter");
+        Debug.Log(gameObject.name);
         playCollectionSound();
         MyScoringSystem.theScore += 1;
         //Destroy(gameObject);

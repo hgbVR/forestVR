@@ -14,6 +14,12 @@ namespace Valve.VR.InteractionSystem
     //-------------------------------------------------------------------------
     public class Interactable : MonoBehaviour
     {
+        // GET NAME COMPONENT
+        public bool GuiOn;
+        public string Text;
+        public Rect BoxSize = new Rect(600, 600, 600, 600);
+        public GUISkin CustomSkin;
+
         [Tooltip("Activates an action set on attach and deactivates on detach")]
         public SteamVR_ActionSet activateActionSetOnAttach;
 
@@ -93,9 +99,20 @@ namespace Valve.VR.InteractionSystem
         public bool wasHovering { get; protected set; }
 
 
-        private void Awake()
-        {
+        private void Awake() {
             skeletonPoser = GetComponent<SteamVR_Skeleton_Poser>();
+        }
+
+        // GET NAME COMPONENT
+        void OnGUI(){
+            if(CustomSkin != null){
+                GUI.skin = CustomSkin;
+            }
+            if(GuiOn == true){
+                GUI.BeginGroup(new Rect((Screen.width - BoxSize.width) / 2, (Screen.height - BoxSize.height) / 2, BoxSize.width, BoxSize.height));
+                GUI.Label(BoxSize, Text);
+                GUI.EndGroup();
+            }
         }
 
         protected virtual void Start()
@@ -248,6 +265,9 @@ namespace Valve.VR.InteractionSystem
         /// </summary>
         protected virtual void OnHandHoverBegin(Hand hand)
         {
+            // GET NAME COMPONENT
+            GuiOn = true;
+
             wasHovering = isHovering;
             isHovering = true;
 
@@ -259,13 +279,16 @@ namespace Valve.VR.InteractionSystem
                 UpdateHighlightRenderers();
             }
         }
-
+        
 
         /// <summary>
         /// Called when a Hand stops hovering over this object
         /// </summary>
         protected virtual void OnHandHoverEnd(Hand hand)
         {
+            // GET NAME COMPONENT
+            GuiOn = false;
+
             wasHovering = isHovering;
 
             hoveringHands.Remove(hand);
