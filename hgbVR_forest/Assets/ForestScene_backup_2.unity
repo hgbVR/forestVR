@@ -4688,7 +4688,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c91c1eb85782d5748ace27eb4d7415bb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -639.8
+      value: -633.33203
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c91c1eb85782d5748ace27eb4d7415bb, type: 3}
       propertyPath: m_LocalRotation.x
@@ -6465,6 +6465,73 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 544042970}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &549748089 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5156838890994186592, guid: 5e435f285f3d011488dbec2c20cb435d,
+    type: 3}
+  m_PrefabInstance: {fileID: 222124848}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &549748090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549748089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GuiOn: 0
+  Text: Papierrolle
+  BoxSize:
+    serializedVersion: 2
+    x: 600
+    y: 600
+    width: 600
+    height: 600
+  CustomSkin: {fileID: 11400000, guid: 55a03710601cb8b4180ef571e3d65dd2, type: 2}
+  activateActionSetOnAttach:
+    actionSetPath: 
+  hideHandOnAttach: 1
+  hideSkeletonOnAttach: 0
+  hideControllerOnAttach: 0
+  handAnimationOnPickup: 0
+  setRangeOfMotionOnPickup: -1
+  useHandObjectAttachmentPoint: 1
+  attachEaseIn: 0
+  snapAttachEaseInCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  snapAttachEaseInTime: 0.15
+  snapAttachEaseInCompleted: 0
+  skeletonPoser: {fileID: 0}
+  handFollowTransform: 1
+  highlightOnHover: 1
+  hideHighlight: []
+  hoverPriority: 0
 --- !u!1001 &552137055
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8379,6 +8446,73 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 690204351}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &691462974 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5156838890994186592, guid: 5e435f285f3d011488dbec2c20cb435d,
+    type: 3}
+  m_PrefabInstance: {fileID: 357903525}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &691462975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691462974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GuiOn: 0
+  Text: Papierrolle
+  BoxSize:
+    serializedVersion: 2
+    x: 600
+    y: 600
+    width: 600
+    height: 600
+  CustomSkin: {fileID: 11400000, guid: 55a03710601cb8b4180ef571e3d65dd2, type: 2}
+  activateActionSetOnAttach:
+    actionSetPath: 
+  hideHandOnAttach: 1
+  hideSkeletonOnAttach: 0
+  hideControllerOnAttach: 0
+  handAnimationOnPickup: 0
+  setRangeOfMotionOnPickup: -1
+  useHandObjectAttachmentPoint: 1
+  attachEaseIn: 0
+  snapAttachEaseInCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  snapAttachEaseInTime: 0.15
+  snapAttachEaseInCompleted: 0
+  skeletonPoser: {fileID: 0}
+  handFollowTransform: 1
+  highlightOnHover: 1
+  hideHighlight: []
+  hoverPriority: 0
 --- !u!1001 &694412307
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15762,7 +15896,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1413584831}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
+  m_LocalPosition: {x: -1053.9065, y: -440.16406, z: 761}
+=======
   m_LocalPosition: {x: -898.1, y: -439.63, z: 762.0338}
+>>>>>>> Viktoria-Branch
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 751815085}
@@ -16394,6 +16532,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1035320660949708711, guid: e93017345af08694aae9a225f76833ba,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.0002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035320660949708711, guid: e93017345af08694aae9a225f76833ba,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035320660949708710, guid: e93017345af08694aae9a225f76833ba,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 277e7a0428abcb743a362d701b115499,
+        type: 2}
     - target: {fileID: 1035320660949708708, guid: e93017345af08694aae9a225f76833ba,
         type: 3}
       propertyPath: GuiOn
@@ -16420,27 +16574,6 @@ PrefabInstance:
       propertyPath: BoxSize.height
       value: 400
       objectReference: {fileID: 0}
-    - target: {fileID: 1035320660949708708, guid: e93017345af08694aae9a225f76833ba,
-        type: 3}
-      propertyPath: hideHandOnAttach
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1035320660949708711, guid: e93017345af08694aae9a225f76833ba,
-        type: 3}
-      propertyPath: m_Mass
-      value: 0.0002
-      objectReference: {fileID: 0}
-    - target: {fileID: 1035320660949708711, guid: e93017345af08694aae9a225f76833ba,
-        type: 3}
-      propertyPath: m_UseGravity
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1035320660949708710, guid: e93017345af08694aae9a225f76833ba,
-        type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 277e7a0428abcb743a362d701b115499,
-        type: 2}
     m_RemovedComponents:
     - {fileID: 1035320660949708709, guid: e93017345af08694aae9a225f76833ba, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e93017345af08694aae9a225f76833ba, type: 3}
@@ -21178,6 +21311,73 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1864527816}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1881288600 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 114662, guid: 325beb5088b92ec4786c0a2e5965c008,
+    type: 3}
+  m_PrefabInstance: {fileID: 1456468411}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1881288601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881288600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GuiOn: 0
+  Text: Quietchentchen
+  BoxSize:
+    serializedVersion: 2
+    x: 600
+    y: 600
+    width: 600
+    height: 600
+  CustomSkin: {fileID: 11400000, guid: 55a03710601cb8b4180ef571e3d65dd2, type: 2}
+  activateActionSetOnAttach:
+    actionSetPath: 
+  hideHandOnAttach: 1
+  hideSkeletonOnAttach: 0
+  hideControllerOnAttach: 0
+  handAnimationOnPickup: 0
+  setRangeOfMotionOnPickup: -1
+  useHandObjectAttachmentPoint: 1
+  attachEaseIn: 0
+  snapAttachEaseInCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  snapAttachEaseInTime: 0.15
+  snapAttachEaseInCompleted: 0
+  skeletonPoser: {fileID: 0}
+  handFollowTransform: 1
+  highlightOnHover: 1
+  hideHighlight: []
+  hoverPriority: 0
 --- !u!1001 &1886637750
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22177,6 +22377,73 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentTimeText: {fileID: 1475221183}
+--- !u!1 &1951468418 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5156838890994186592, guid: 5e435f285f3d011488dbec2c20cb435d,
+    type: 3}
+  m_PrefabInstance: {fileID: 498991275}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1951468419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951468418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GuiOn: 0
+  Text: Papierrolle
+  BoxSize:
+    serializedVersion: 2
+    x: 600
+    y: 600
+    width: 600
+    height: 600
+  CustomSkin: {fileID: 11400000, guid: 55a03710601cb8b4180ef571e3d65dd2, type: 2}
+  activateActionSetOnAttach:
+    actionSetPath: 
+  hideHandOnAttach: 1
+  hideSkeletonOnAttach: 0
+  hideControllerOnAttach: 0
+  handAnimationOnPickup: 0
+  setRangeOfMotionOnPickup: -1
+  useHandObjectAttachmentPoint: 1
+  attachEaseIn: 0
+  snapAttachEaseInCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  snapAttachEaseInTime: 0.15
+  snapAttachEaseInCompleted: 0
+  skeletonPoser: {fileID: 0}
+  handFollowTransform: 1
+  highlightOnHover: 1
+  hideHighlight: []
+  hoverPriority: 0
 --- !u!1001 &1954395479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22860,6 +23127,73 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1997606555}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1997670986 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1612629541763696, guid: 1eb0ad08f6caccd4cbdd8f1fe1573944,
+    type: 3}
+  m_PrefabInstance: {fileID: 1818513671}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1997670987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997670986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GuiOn: 0
+  Text: "Beachballschl\xE4ger"
+  BoxSize:
+    serializedVersion: 2
+    x: 600
+    y: 600
+    width: 600
+    height: 600
+  CustomSkin: {fileID: 11400000, guid: 55a03710601cb8b4180ef571e3d65dd2, type: 2}
+  activateActionSetOnAttach:
+    actionSetPath: 
+  hideHandOnAttach: 1
+  hideSkeletonOnAttach: 0
+  hideControllerOnAttach: 0
+  handAnimationOnPickup: 0
+  setRangeOfMotionOnPickup: -1
+  useHandObjectAttachmentPoint: 1
+  attachEaseIn: 0
+  snapAttachEaseInCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  snapAttachEaseInTime: 0.15
+  snapAttachEaseInCompleted: 0
+  skeletonPoser: {fileID: 0}
+  handFollowTransform: 1
+  highlightOnHover: 1
+  hideHighlight: []
+  hoverPriority: 0
 --- !u!4 &2020688533 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 405194, guid: 325beb5088b92ec4786c0a2e5965c008,
@@ -23304,6 +23638,73 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2064294527}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2085816685 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1713847862798058, guid: c4b192962deef094980528d2e80de419,
+    type: 3}
+  m_PrefabInstance: {fileID: 1025607603}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2085816686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085816685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GuiOn: 0
+  Text: "Beachballschl\xE4ger"
+  BoxSize:
+    serializedVersion: 2
+    x: 600
+    y: 600
+    width: 600
+    height: 600
+  CustomSkin: {fileID: 11400000, guid: 55a03710601cb8b4180ef571e3d65dd2, type: 2}
+  activateActionSetOnAttach:
+    actionSetPath: 
+  hideHandOnAttach: 1
+  hideSkeletonOnAttach: 0
+  hideControllerOnAttach: 0
+  handAnimationOnPickup: 0
+  setRangeOfMotionOnPickup: -1
+  useHandObjectAttachmentPoint: 1
+  attachEaseIn: 0
+  snapAttachEaseInCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  snapAttachEaseInTime: 0.15
+  snapAttachEaseInCompleted: 0
+  skeletonPoser: {fileID: 0}
+  handFollowTransform: 1
+  highlightOnHover: 1
+  hideHighlight: []
+  hoverPriority: 0
 --- !u!1 &2108773938
 GameObject:
   m_ObjectHideFlags: 0
