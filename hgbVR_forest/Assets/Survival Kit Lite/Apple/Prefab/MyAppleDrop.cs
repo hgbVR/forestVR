@@ -18,11 +18,13 @@ public class MyAppleDrop : MonoBehaviour
     {
         Debug.Log("Collision");
         Flare.Play();
+        Debug.Log(thecollision.gameObject.name);
+        
     }
 
     void OnTriggerEnter(Collider thecollider)
     {
-        Debug.Log("Trigger");
+        Debug.Log(thecollider.gameObject.name);
         //hier den counter triggern
         if (thecollider.gameObject.name == "triggerCube")
         {
