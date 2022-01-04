@@ -13,8 +13,10 @@ public class timerButton : MonoBehaviour
     // Start is called before the first frame update
     void Start(){
         currentTime = 0;
+        StartTimer();
     }
 
+    
     // Update is called once per frame
     void Update(){
         if(timerActive == true){
@@ -23,6 +25,19 @@ public class timerButton : MonoBehaviour
         TimeSpan time = TimeSpan.FromSeconds(currentTime);
         currentTimeText.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
     }
+    
+    /*
+    // Update is called once per frame
+    void Update()
+    {        
+        currentTime = currentTime + Time.deltaTime;
+        Debug.Log(currentTime);
+
+        TimeSpan time = TimeSpan.FromSeconds(currentTime);
+        currentTimeText.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
+    }
+    */
+
 
     public void StartTimer(){
         timerActive = true;

@@ -6057,6 +6057,7 @@ GameObject:
   - component: {fileID: 80933474}
   - component: {fileID: 80933473}
   - component: {fileID: 80933472}
+  - component: {fileID: 80933475}
   m_Layer: 0
   m_Name: triggerCube
   m_TagString: Untagged
@@ -6137,6 +6138,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 80933470}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &80933475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 80933470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2254e96b174f4f44bb5adde63af84baf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &81932745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20792,7 +20805,7 @@ PrefabInstance:
     - target: {fileID: 1438221748538369555, guid: 09a339796377dd34da84364e8153c839,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12.378829
+      value: -12.31
       objectReference: {fileID: 0}
     - target: {fileID: 1438221748538369555, guid: 09a339796377dd34da84364e8153c839,
         type: 3}
@@ -36900,15 +36913,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4389602783215420, guid: c4b192962deef094980528d2e80de419, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 57166.7
+      value: 57160.42
       objectReference: {fileID: 0}
     - target: {fileID: 4389602783215420, guid: c4b192962deef094980528d2e80de419, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 20246.69
+      value: 20248.52
       objectReference: {fileID: 0}
     - target: {fileID: 4389602783215420, guid: c4b192962deef094980528d2e80de419, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -22296.219
+      value: -22295.57
       objectReference: {fileID: 0}
     - target: {fileID: 4389602783215420, guid: c4b192962deef094980528d2e80de419, type: 3}
       propertyPath: m_LocalRotation.x
