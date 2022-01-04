@@ -17,7 +17,7 @@ public class MyAppleDrop : MonoBehaviour
     void OnCollisionEnter(Collision thecollision)
     {
         Debug.Log("Collision");
-        //Flare.Play();
+        Flare.Play();
     }
 
     void OnTriggerEnter(Collider thecollider)
