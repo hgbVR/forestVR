@@ -1,9 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using UnityEngine.UI;
 
 public class getCollisionName : MonoBehaviour
 {
+    public GameObject objectText;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +33,8 @@ public class getCollisionName : MonoBehaviour
     {
         Debug.Log("triggerEnter");
         Debug.Log(thecollider.gameObject.name);
+
+        objectText.GetComponent<Text>().text = thecollider.gameObject.name;
 
 
         //hier den counter triggern
